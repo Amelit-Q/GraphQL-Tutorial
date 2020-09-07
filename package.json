@@ -1,0 +1,31 @@
+{
+  "name": "graphql-tutorial",
+  "version": "1.0.0",
+  "description": "just trying to learn graphql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amelit-Q/GraphQL-Tutorial.git"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "Tarik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amelit-Q/GraphQL-Tutorial/issues"
+  },
+  "homepage": "https://github.com/Amelit-Q/GraphQL-Tutorial#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.10.3",
+    "nodemon": "^2.0.4"
+  }
+}
